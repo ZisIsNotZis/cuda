@@ -3,3 +3,9 @@ __pycache__/
 .venv/
 node_modules/
 .ipynb_checkpoints/
+.pi/
+*.o
+*.ncu-rep
+*.csv
+test6/m
+test7/m

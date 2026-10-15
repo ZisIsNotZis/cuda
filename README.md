@@ -14,6 +14,7 @@ library and has no consumers.
 ```
 nvcc -arch native -o /tmp/t3 test3.cu && /tmp/t3
 ```
+This is an experimental kernel, not a pass/fail smoke test; its run can report a CUDA error.
 For the swept variants, `cd test6` or `cd test7` and `make` (needs `nvcc` and,
 for the `.ncu-rep`/CSV targets, Nsight Compute `ncu`); tune `N=` on the make
 command line. The notebooks (`test{5,6,7}/m.ipynb`) parse the `ncu` CSV dumps
@@ -27,5 +28,4 @@ nothing in the repo is built on a deprecated framework. It is an unpolished
 scratch archive, not a maintained project — treat it as `archive_only` in tone
 even though the code is publishable.
 
-**License:** no LICENSE file present. As the owner's own work, add an explicit
-license (e.g. MIT) before publishing; until then, all rights reserved.
+**License:** AGPL-3.0-only; see `LICENSE`.
